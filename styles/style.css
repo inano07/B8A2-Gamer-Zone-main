@@ -2,6 +2,7 @@
 /*this section is for all */
     margin: 0px;
     padding: 0px;
+
     .menu-container {
         display: flex;
         justify-content: space-between;
@@ -46,5 +47,27 @@
     .social-logo{
         width: 3vh;
     }
-
+    .header {
+        display: flex;
+    }
+    .header-text {
+        list-style: none;
+    }
+    .bnr-txt {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .bnr-highlight {
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+    .bnr-list {
+        font-size: 0.8em;
+        display: flex;
+        align-items: center;
+    }
+    .bnr-icon {
+        width: 3vh;
+    }
 }
+
