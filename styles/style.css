@@ -49,9 +49,20 @@
     }
     .header {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .header-text {
         list-style: none;
+        background-image: url('../B8A2-Gamer-Zone-main/images/Group 14.png');
+        background-size: contain;
+        width: 700px;
+        height: 700px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
     .bnr-txt {
         font-size: 1.2em;
@@ -60,6 +71,9 @@
     .bnr-highlight {
         font-size: 2.5em;
         font-weight: 800;
+        background: -webkit-linear-gradient(#b610b6, #ff42A5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .bnr-list {
         font-size: 0.8em;
@@ -69,5 +83,171 @@
     .bnr-icon {
         width: 3vh;
     }
-}
+    .sign-in {
+        padding: 10px 20px;
+        border: 0px;
+        border-radius: 20px;
+        margin: 10px 10px 10px 0px;
+        background-color: #ff42A5;
+        color: white;
+    }
+    .explore {
+        padding: 10px 20px;
+        border: 0px;
+        border-radius: 20px;
+        margin: 10px 10px 10px 0px;
+        background-color: rgb(131, 189, 247);
+        color: white;
+    }
+    .banner {
+        width: 500px;
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin: 30px;
+    }
+    .vdo-img {
+        display: flex;
+        justify-items: center;
+    }
+    .vdo-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details {
+        margin: 10px;
+        font-size: 0.8em;
+    }
+    
+        
+    
+    .hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        margin: 40px; 
+        font-size: 0.8em;
+        position: relative;
+    }
+    .vdo-pic {
+        width: 35vh;
+        justify-content: space-between;
+        display: block;
+        margin: auto;}
+    
+    .hvr-txt {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(225, 227, 233, 0.622);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition:5S ;
+    }
+    .vdo-pic:hover .hvr-txt {
+        opacity: 1;
+      }
+    
+    .hvr-txt > * {
+        transform: translateY(0px);
+    }
+    .txt-high {
+        background: -webkit-linear-gradient(#b610b6, #ff42A5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .trans {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+    .foreground {
+       margin: -200px 0px 0px -150px;
+    }
+    .btn-hvr {
+        background-color: white;
+        display: flex;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px 60px;
+        justify-content: center;
+        align-items: center;
+        border: 0px;
+    }
+    .btn-hvr:hover{
+        border-color: ;
+        border: 2px solid #ff42A5;
+        color: #ff42A5;
+    }
+    .category {
+        list-style: none;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    .contacts {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(1, 1, 26);
+        color: white;
+        padding: 50px;
+    }
+    .account {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 50px;
+    }
+    .links {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 30px;
+    }
+    .terms {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 30px;
+        font-size: smaller;
+        color: gray;
+    }
+    .link-logo {
+        width: 30px;
+    }
+    .warnning {
+        font-size: smaller;
+        color: gray;
+    }
 
+
+
+
+
+
+    @media screen and (max-width: 425px) {
+        .menu-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+}
